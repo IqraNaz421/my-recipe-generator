@@ -1,28 +1,3 @@
-// // Import RecipeGenerator component
-// import RecipeGenerator from '@/components/RecipeGenerator';
-
-// const Home = () => {
-//     return (
-//         <div>
-//             {/* Add RecipeGenerator here */}
-//             <header className="bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 p-4 text-white text-center"
-//             >
-//                 <h1 className="text-2xl">Welcome to Recipe Generator App 🍳</h1>
-//             </header>
-
-//             <main className="p-5">
-//                 <h2 className="text-xl text-center mt-5">Find the perfect recipe based on the dish name!</h2> <br />
-                
-//                 {/* Here is where you use the RecipeGenerator component */}
-//                 <RecipeGenerator />
-//             </main>
-//         </div>
-//     );
-// };
-
-// export default Home;
-
-
 
 
 // Import RecipeGenerator component
@@ -55,7 +30,7 @@ const Home = () => {
 
             {/* Main Content */}
             <main className="p-5">
-                <h2 className="text-xl text-center mt-5 text-gray-800 font-semibold">
+                <h2 className="text-xl text-center mt-5 text-orange-500 font-semibold">
                     Find the perfect recipe based on the dish name!
                 </h2> 
                 <br />

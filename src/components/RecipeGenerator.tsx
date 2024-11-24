@@ -215,17 +215,13 @@ const RecipeGenerator = () => {
   </ul>
 </div>
 
-
-
-
-
       <div className="flex justify-center mb-6">
         <input
           type="text"
           value={dishName}
           onChange={(e) => setDishName(e.target.value)}
           placeholder="Enter dish name (e.g., Biryani, Pizza)"
-          className="border-2 p-3 rounded-md w-2/3 sm:w-1/2 bg-gray-100 focus:ring-2 focus:ring-orange-400 transition-all"
+          className="border-2 p-3 rounded-md w-2/3 sm:w-1/2 text-white bg-black focus:ring-2 focus:ring-orange-400 transition-all"
         />
         <button
           onClick={handleDishInput}
@@ -241,7 +237,7 @@ const RecipeGenerator = () => {
       
 {recipe && (
   <div className="mt-8 bg-gradient-to-tr from-yellow-50 via-orange-100 to-orange-200 rounded-xl shadow-2xl p-8 max-w-2xl mx-auto transition-transform transform  hover:shadow-orange-400">
-    <Image
+    <Image                                     
       src={recipe.image}
       alt={recipe.name}
       height={500}
